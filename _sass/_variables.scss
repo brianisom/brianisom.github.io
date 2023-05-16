@@ -12,7 +12,7 @@ $blue-color:          #0076df !default;
 $blue-color-dark:     #00369f !default;
 $cyan-color:          #2698BA !default;
 $light-cyan-color:    lighten($cyan-color, 25%);
-$green-color:         #00ab37 !default;
+$green-color:         #4f8686 !default;
 $green-color-lime:    #B7D12A !default;
 $green-color-dark:    #009f06 !default;
 $green-color-light:   #ddffdd !default;
@@ -24,12 +24,15 @@ $pink-color-light:    #ffdddd !default;
 $yellow-color:        #efcc00 !default;
 
 $grey-color:          #828282 !default;
+$grey-color-char:     #2b3033;
 $grey-color-light:    lighten($grey-color, 40%);
-$grey-color-dark:     #1C1C1D;
+$grey-color-dark:     #252527;
 $grey-900:            #212529;
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
+
+$navbar-bg-color: #181D31;
 
 
 // Theme colors

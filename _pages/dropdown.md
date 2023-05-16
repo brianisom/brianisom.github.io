@@ -1,13 +1,13 @@
 ---
 layout: page
-title: submenus
+title: CV/Resume
 nav: true
 nav_order: 6
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: CV
+      permalink: /cv/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: Resume
+      permalink: /resume/
 ---

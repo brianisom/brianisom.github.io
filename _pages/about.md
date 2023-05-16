@@ -1,26 +1,24 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Researcher | Analyst | Mentor
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I'm Brian. Welcome to my website.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am an economist working at the intersection of public policy and innovation. I currently work at [The Center for Growth and Opportunity at Utah State University](thecgo.org), where I have the opportunity to conduct research alongside a talented team of analysts while also managing, training, and mentoring the Center's talented student fellows as the Director of the Student Research Fellowship.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am deeply interested in the world of energy and environmental economics, where I have researched topics ranging from the effect of institutions on water price and allocation to the impact that wildfire smoke has on solar electricity production. 
+
+I love to spend my free time out hiking and fishing in the mountains of Utah, reading, woodworking, and learning new coding methods and languages. Please take a look around, and feel free to reach out to me via email or any of the social media accounts linked below!

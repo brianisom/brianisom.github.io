@@ -3,19 +3,13 @@
  ******************************************************************************/
 
 // Typography
-
-p,
-h1,
-h2,
 h3,
 h4,
 h5,
 h6,
 em,
 div,
-li,
-span,
-strong {
+li {
   color: var(--global-text-color);
 }
 
@@ -61,6 +55,7 @@ blockquote {
   font-size: 1.2rem;
 }
 
+
 // Math
 
 .equation {
@@ -80,19 +75,20 @@ blockquote {
 // Card
 
 .card {
-  background-color: var(--global-card-bg-color);
+  background-color: var(--global-bg-color);
+  box-shadow:0px 0px 0px #ffffff;
 
   img {
     width: 100%;
   }
 
   .card-title {
-    color: var(--global-text-color);
+    color: var(--global-theme-color);
   }
 
   .card-item {
     width: auto;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 
     .row {
       display: flex;
@@ -106,31 +102,6 @@ blockquote {
 .citation,
 .citation-number {
   color: var(--global-theme-color);
-}
-
-// Profile
-
-.profile {
-  width: 100%;
-
-  .address {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-family: monospace;
-
-    p {
-      display: inline-block;
-      margin: 0;
-    }
-  }
-}
-
-.profile.float-right {
-  margin-left: 1rem;
-}
-
-.profile.float-left {
-  margin-right: 1rem;
 }
 
 @media (min-width: 576px) {
@@ -164,7 +135,6 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
@@ -174,7 +144,7 @@ blockquote {
   border: 1px solid var(--global-divider-color);
 
   a:not(.active) {
-    color: var(--global-text-color);
+    color: var(--global-navbar-text-color);
   }
 
   a:hover {
@@ -187,7 +157,7 @@ blockquote {
 }
 
 .dropdown-item {
-  color: var(--global-text-color);
+  color: var(--global-navbar-text-color);
 
   &:hover {
     color: var(--global-hover-color);
@@ -203,11 +173,11 @@ blockquote {
   }
 
   .navbar-brand {
-    color: var(--global-text-color);
+    color: var(--global-navbar-text-color);
   }
 
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: var(--global-navbar-text-color);
 
     &:hover {
       color: var(--global-hover-color);
@@ -231,7 +201,7 @@ blockquote {
 
     a {
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-navbar-text-color);
         transition-property: all 0.2s ease-in-out;
       }
 
@@ -249,7 +219,7 @@ blockquote {
     display: block;
     width: 22px;
     height: 2px;
-    background-color: var(--global-text-color);
+    background-color: var(--global-navbar-text-color);
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
@@ -288,7 +258,7 @@ blockquote {
   padding: 0;
   border: 0;
   background-color: inherit;
-  color: var(--global-text-color);
+  color: var(--global-navbar-text-color);
 
   &:hover {
     color: var(--global-hover-color);
@@ -301,7 +271,7 @@ blockquote {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3rem;
 
     a {
       i::before {
@@ -498,8 +468,8 @@ footer.sticky-bottom {
 
     &:hover {
       .card-title {
-        color: var(--global-theme-color);
-      }
+        font-weight: (500);
+      };
     }
   }
 
@@ -511,7 +481,7 @@ footer.sticky-bottom {
 
   .card-item {
     width: auto;
-    margin-bottom: 10px;
+    margin-bottom: -15px;
 
     .row {
       display: flex;
@@ -521,17 +491,17 @@ footer.sticky-bottom {
 
   .grid-sizer,
   .grid-item {
-    width: 250px;
-    margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 3px;
   }
 
   h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
+    color: $grey-color-char;
+    border-bottom: 1px solid $grey-color-char;
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    text-align: right;
+    text-align: left;
   }
 }
 
