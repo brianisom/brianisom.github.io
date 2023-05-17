@@ -21,4 +21,4 @@ I am an economist working at the intersection of public policy and innovation. I
 
 I am deeply interested in the world of energy and environmental economics, where I have researched topics ranging from the effect of institutions on water price and allocation to the impact that wildfire smoke has on solar electricity production. 
 
-I love to spend my free time out hiking and fishing in the mountains of Utah, reading, woodworking, and learning new coding methods and languages. Please take a look around, and feel free to reach out to me via email or any of the social media accounts linked below!
+I love to spend my free time out hiking and fishing in the mountains of Utah, reading, woodworking, and learning new coding methods and languages. Please take a look around and feel free to reach out to me via email or any of the social media accounts linked below!
