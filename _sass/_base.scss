@@ -45,6 +45,7 @@ table.table a {
 figure,
 img {
   max-width: 90vw;
+  padding-left: 8px;
 }
 
 blockquote {
@@ -129,7 +130,6 @@ blockquote {
     }
   }
 }
-
 
 // Navbar customization
 
@@ -381,6 +381,14 @@ footer.sticky-bottom {
       color: var(--global-text-color-light);
     }
   }
+}
+
+iframe {
+
+  margin: 0;
+  padding: 0;
+  border: none;
+
 }
 
 .post-title {
