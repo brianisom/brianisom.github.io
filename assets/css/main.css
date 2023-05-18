@@ -143,6 +143,7 @@ table.table a:hover:after :not(.nav-item.dropdown) {
 figure,
 img {
   max-width: 90vw;
+  padding-left: 8px;
 }
 
 blockquote {
@@ -399,6 +400,12 @@ footer.sticky-bottom {
   display: inline-block;
   padding: 1rem 0.5rem;
   color: var(--global-text-color-light);
+}
+
+iframe {
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 .post-title mjx-container[jax=CHTML][display=true] {
