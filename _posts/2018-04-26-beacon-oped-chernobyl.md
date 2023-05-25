@@ -7,4 +7,4 @@ tags: energy policy
 categories: article
 ---
 
-<iframe src="https://www.thecgo.org/benchmark/establishing-secure-uranium-supply-chains-for-a-future-of-abundant-energy/" width="100%" height="700"></iframe>
+<iframe src="https://blog.independent.org/2018/04/26/despite-enviable-safety-record/" width="100%" height="700"></iframe>

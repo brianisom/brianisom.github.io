@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  State Bans On Hydraulic Fracturing Stymie American Prosperity
-date:   2018-02-27 16:40:16
+date:   2016-04-28 16:40:16
 description: Op-ed for the Daily Caller
 tags: energy policy
 categories: op-ed

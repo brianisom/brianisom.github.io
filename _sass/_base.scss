@@ -33,7 +33,7 @@ table.table a {
   color: var(--global-theme-color);
 
   &:hover {
-    color: var(--global-theme-color);
+    color: var(--global-hover-color);
     text-decoration: underline;
   }
 
@@ -85,6 +85,9 @@ blockquote {
 
   .card-title {
     color: var(--global-theme-color);
+    font-size: 18pt;
+    font-weight: 500;
+    margin-bottom: 5px;
   }
 
   .card-item {
@@ -125,7 +128,7 @@ blockquote {
     color: inherit;
 
     &:hover {
-      color: var(--global-theme-color);
+      color: var(--global-hover-color);
       text-decoration: none;
     }
   }
@@ -135,12 +138,12 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  background-color: var(--global-bg-color);
+  background-color: var(--global-navbar-bg-color);
   opacity: 0.95;
 }
 
 .navbar .dropdown-menu {
-  background-color: var(--global-bg-color);
+  background-color: var(--global-navbar-bg-color);
   border: 1px solid var(--global-divider-color);
 
   a:not(.active) {
@@ -148,7 +151,7 @@ blockquote {
   }
 
   a:hover {
-    color: var(--global-hover-color);
+    color: var(--global-navbar-text-color);
   }
 
   .dropdown-divider {
@@ -180,17 +183,17 @@ blockquote {
     color: var(--global-navbar-text-color);
 
     &:hover {
-      color: var(--global-hover-color);
+      color: var(--global-navbar-text-color);
     }
   }
 
   .navbar-nav .nav-item.active>.nav-link {
     background-color: inherit;
-    font-weight: bolder;
-    color: var(--global-theme-color);
+    font-weight: 700;
+    color: var(--global-navbar-text-color);
 
     &:hover {
-      color: var(--global-hover-color);
+      color: var(--global-navbar-text-color);
     }
   }
 
@@ -207,7 +210,7 @@ blockquote {
 
       &:hover {
         i::before {
-          color: var(--global-theme-color);
+          color: var(--global-navbar-text-color);
         }
       }
     }
@@ -261,7 +264,7 @@ blockquote {
   color: var(--global-navbar-text-color);
 
   &:hover {
-    color: var(--global-hover-color);
+    color: var(--global-navbar-text-color);
   }
 }
 
@@ -300,8 +303,8 @@ footer.fixed-bottom {
 
   .container {
     color: var(--global-footer-text-color);
-    padding-top: 9px;
-    padding-bottom: 8px;
+    padding-top: 5px;
+    padding-bottom: 4px;
   }
 
   a {
@@ -328,7 +331,7 @@ footer.sticky-bottom {
 
   .card {
     background-color: var(--global-card-bg-color);
-    border: 1px solid var(--global-divider-color);
+    border: 0px solid var(--global-divider-color);
 
     .list-group-item {
       background-color: inherit;
@@ -341,6 +344,175 @@ footer.sticky-bottom {
     }
   }
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;  
+}
+
+body {
+  min-height: 100%;  
+  background: #eeeeee;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 50px;
+}
+
+.pagecontainer {
+  max-width: 750px;   
+  background: #fff;
+  margin: 0px auto 0px; 
+  box-shadow: 0px 0px 0px #DAD7D7;
+  border-radius: 0px;  
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.header {
+  margin-bottom: 10px;
+  
+  .full-name {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  
+  .first-name {
+    font-weight: 700;
+  }
+  
+  .last-name {
+    font-weight: 300;
+  }
+  
+  .contact-info {
+    margin-bottom: 5px;
+  }
+  
+  .email ,
+  .phone {
+    color: #999;
+    font-weight: 300;
+  } 
+  
+  .separator {
+    height: 10px;
+    display: inline-block;
+    border-left: 2px solid #999;
+    margin: 0px 10px;
+  }
+  
+  .position {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: underline;
+  }
+}
+
+
+.details {
+  line-height: 20px;
+  
+  .section {
+    margin-bottom: 20px;  
+  }
+  
+  .section:last-of-type {
+    margin-bottom: 0px;  
+  }
+  
+  .section__title {
+    letter-spacing: 2px;
+    color: var(--global-theme-color);
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .section__list-item {
+    margin-bottom: 10px;
+  }
+  
+  .section__list-item:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  .left ,
+  .right {
+    vertical-align: top;
+    display: inline-block;
+    font-size: 11pt;
+  }
+  
+  .left {
+    width: 75%;    
+  }
+  
+  .right {
+    text-align: right;
+    width: 24%;    
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  .addr {
+    font-style: italic;
+ }
+
+ .duration {
+  margin-left: 15px;
+ }
+
+  a {
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #000;
+  }
+  
+  .skills {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+  }
+    
+  .skills__item {
+    margin-bottom: 10px;  
+  }
+  
+  .skills__item .right {
+    input {
+      display: none;
+    }
+    
+    label {
+      display: inline-block;  
+      width: 20px;
+      height: 20px;
+      background: #C3DEF3;
+      border-radius: 20px;
+      margin-right: 3px;
+    }
+    
+    input:checked + label {
+      background: #79A9CE;
+    }
+  }
+}
+
 
 // Repositories
 
@@ -394,6 +566,7 @@ iframe {
 .post-title {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
+    text-transform: capitalize;
   }
 }
 
@@ -436,6 +609,15 @@ iframe {
   }
 }
 
+.page-title{
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  color: var(--global-theme-color);
+  font-size: 5rem;
+  font-weight: 300;
+}
+
 .pagination {
   .page-item {
     .page-link {
@@ -468,9 +650,9 @@ iframe {
 }
 
 
-// Projects
+// Publications
 
-.projects {
+.publications {
   a {
     text-decoration: none;
 
@@ -489,7 +671,7 @@ iframe {
 
   .card-item {
     width: auto;
-    margin-bottom: -15px;
+    margin-bottom: -20px;
 
     .row {
       display: flex;
@@ -500,192 +682,16 @@ iframe {
   .grid-sizer,
   .grid-item {
     width: 100%;
-    margin-bottom: 3px;
+    margin-bottom: -10px;
   }
 
   h2.category {
     color: $grey-color-char;
-    border-bottom: 1px solid $grey-color-char;
+    border-bottom: .5px solid $grey-color-char;
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: left;
-  }
-}
-
-
-// Publications
-
-.publications {
-  margin-top: 2rem;
-
-  h1 {
-    color: var(--global-theme-color);
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
-
-  h2 {
-    margin-bottom: 1rem;
-
-    span {
-      font-size: 1.5rem;
-    }
-  }
-
-  h2.year {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
-    margin-top: 2rem;
-    margin-bottom: -2rem;
-    text-align: right;
-  }
-
-  ol.bibliography {
-    list-style: none;
-    padding: 0;
-    margin-top: 0;
-
-    li {
-      margin-bottom: 1rem;
-
-      .preview {
-        width: 100%;
-        min-width: 80px;
-        max-width: 200px;
-      }
-
-      .abbr {
-        height: 2rem;
-        margin-bottom: 0.5rem;
-
-        abbr {
-          display: inline-block;
-          background-color: var(--global-theme-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-
-          a {
-            color: white;
-
-            &:hover {
-              text-decoration: none;
-            }
-          }
-        }
-
-        .award {
-          color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
-        }
-      }
-
-      .title {
-        font-weight: bolder;
-      }
-
-      .author {
-        a {
-          border-bottom: 1px dashed var(--global-theme-color);
-
-          &:hover {
-            border-bottom-style: solid;
-            text-decoration: none;
-          }
-        }
-
-        >em {
-          border-bottom: 1px solid;
-          font-style: normal;
-        }
-
-        >span.more-authors {
-          color: var(--global-text-color-light);
-          border-bottom: 1px dashed var(--global-text-color-light);
-          cursor: pointer;
-
-          &:hover {
-            color: var(--global-text-color);
-            border-bottom: 1px dashed var(--global-text-color);
-          }
-        }
-      }
-
-      .links {
-        a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          margin-left: 0;
-
-          &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
-          }
-        }
-      }
-
-      .badges {
-        padding-bottom: 0.5rem;
-        span {
-          display: inline-block;
-          color: $black-color;
-          height: 100%;
-          padding-right: 0.5rem;
-          vertical-align: middle;
-
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-      }
-
-      .hidden {
-        font-size: 0.875rem;
-        max-height: 0px;
-        overflow: hidden;
-        text-align: justify;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
-        transition: all 0.15s ease;
-
-        p {
-          line-height: 1.4em;
-          margin: 10px;
-        }
-
-        pre {
-          font-size: 1em;
-          line-height: 1.4em;
-          padding: 10px;
-        }
-      }
-
-      .hidden.open {
-        max-height: 100em;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
-        transition: all 0.15s ease;
-      }
-
-      div.abstract.hidden {
-        border: dashed 1px var(--global-bg-color);
-      }
-
-      div.abstract.hidden.open {
-        border-color: var(--global-text-color);
-      }
-    }
   }
 }
 

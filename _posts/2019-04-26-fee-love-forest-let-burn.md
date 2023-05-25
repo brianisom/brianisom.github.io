@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Let Forests Burn, If You Truly Love Them
-date:   2019-03-28 16:40:16
+date:   2019-04-26 16:40:16
 description: Article for the Foundation for Economic Freedom
 tags: environment policy
 categories: article

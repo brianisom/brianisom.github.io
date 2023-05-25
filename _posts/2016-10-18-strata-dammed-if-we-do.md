@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Dammed If We Do- Trouble On the Great Salt Lake
-date:   2018-02-27 16:40:16
+date:   2016-10-18 16:40:16
 description: Article for Strata Policy
 tags: environment policy
 categories: article

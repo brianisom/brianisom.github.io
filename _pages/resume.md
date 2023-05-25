@@ -1,8 +1,7 @@
 ---
-layout: resume
+layout: resumehtml
 permalink: /resume/
 title: Resume
-nav: false
-nav_order:
-resume_pdf: example_pdf.pdf
+nav: true
+nav_order: 3
 ---
