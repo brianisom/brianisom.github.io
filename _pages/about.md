@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi, I'm Brian. Welcome to my website.
 
-I am an economist working at the intersection of public policy and innovation. I currently work at <a href="https://thecgo.org">The Center for Growth and Opportunity at Utah State University</a>, where I have the opportunity to conduct research alongside a talented team of analysts while also managing, training, and mentoring the Center's talented student fellows as the Director of the Student Research Fellowship.
+I am an economist working at the intersection of public policy and innovation. I currently work at <a href="https://thecgo.org">The Center for Growth and Opportunity at Utah State University</a>, where I have the opportunity to conduct research alongside a talented team of analysts while also managing, training, and mentoring the Center's talented student fellows as Manager of the Student Research Fellowship.
 
 Most of my past research efforts have focused on energy and environmental issues. But I also have experience working on healthcare, tech, and labor economics. If you are interested in digging deeper into any of my research, you can find it in the [commentary](/blog/) and [publications](/publications/) links above, or on my <a href="https://github.com/brianisom">github account</a>. 
 
