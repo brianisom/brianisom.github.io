@@ -335,6 +335,7 @@ blockquote {
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
+  text-align: center;
 }
 footer.fixed-bottom .container {
   color: var(--global-footer-text-color);
@@ -526,7 +527,7 @@ body {
 }
 .header-bar h1 {
   color: var(--global-theme-color);
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .tag-list {
@@ -595,7 +596,7 @@ iframe {
   padding-top: 4rem;
   padding-bottom: 2rem;
   color: var(--global-theme-color);
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 300;
 }
 
